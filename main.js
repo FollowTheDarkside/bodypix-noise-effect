@@ -10,6 +10,7 @@ Params
 // };
 let capture;
 let pixelNoiseSlider;
+let mic;
 
 // ===== BodyPix =====
 let modelConfigParams;
