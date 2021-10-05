@@ -36,7 +36,8 @@ Function
 */
 
 function setup() {
-    createCanvas(windowWidth,windowHeight);
+    let cnv = createCanvas(windowWidth,windowHeight);
+    cnv.mouseClicked(userStartAudio); // Start handling Audio when the screen is clicked
 
     // init bodypix param
     //modelConfigParams = mobilenetConfigParams;
